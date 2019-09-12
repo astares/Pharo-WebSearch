@@ -9,7 +9,7 @@ Class {
 
 { #category : #defaults }
 AskCom class >> defaultSearchEngineName [
-	"Return the class name by default, subclasses may want to override to provide a custom name"
+	"Override to return specific name"
 	
 	^'Ask.com'
 ]
