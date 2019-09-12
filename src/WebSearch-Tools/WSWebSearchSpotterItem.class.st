@@ -20,6 +20,22 @@ WSWebSearchSpotterItem class >> searchEngine: aSearchEngineClass searchTerm: aSt
 ]
 
 { #category : #accessing }
+WSWebSearchSpotterItem >> icon [ 
+	^searchEngineClass systemIcon 
+]
+
+{ #category : #operations }
+WSWebSearchSpotterItem >> performSearch [
+	searchEngineClass searchFor: searchTerm
+]
+
+{ #category : #printing }
+WSWebSearchSpotterItem >> printOn: aStream [
+
+	aStream nextPutAll: searchEngineClass defaultSearchEngineName , ' search for ', searchTerm asString
+]
+
+{ #category : #accessing }
 WSWebSearchSpotterItem >> searchEngineClass [
 	^ searchEngineClass
 ]
