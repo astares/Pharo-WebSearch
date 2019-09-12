@@ -47,6 +47,23 @@ WSIconCache class >> generateIcon [
 ]
 
 { #category : #'private - icons' }
+WSIconCache class >> iconAskComContents [
+
+	^'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACOElEQVR42r2T0UtTcRTHv+e3
+zVnNpTSph40KHIWFQuwhBEGGTOhlD/UQJtgf4PAh3YNkL70UCErzqfclVGpPqTifoi2XhMRg
+vYjcqLmHdLil7d7t7nTuWIFQEET94Mu95/D7fe455/e9hL9c9M8Ar4jsJnClClyqAG2ir6KM
+aP0ms/lbwAaRl4HxGnBLdp0SAAyRq7cXumkin0xqEt/RHj/NSlo/AtgkGpHEg5ZQ6ERpdRUm
+MyoNgD8ex6eFBWjz8ygDLPmh28xPfgLeEz2yM0fs8u5NpfB5YABGsQiDCLrkLmcyeBcOo7C1
+hW8SC2THlGrrgE2lRpqIYk4p0dXfD8/yMvIdHai1t+PY8DB2pqdxIZ3Gx6kplMtlZGdm6pAK
+0VnaUKrVoZTW4vO5bdvbOL22BpJNpclJuGIxfLE253LwSgt6Po+kzOKwWrUALAAPvSUabHY6
+407DgLunB21jY2A5cCj9orMTxyMR7M7Owi2VGPv7eBMM/mhhfYj5KqWJolL+w+ZaDb6lJTR1
+d4McDhSjUejSr2dxEdZAdxMJnBkdRaqvD8W9PZbBhgaZE5Qiuu4get4aCMA3N4ec34+TExMw
+CwXYpIL9lRUcaBqK0t5BqVT/uhy+d4P5ft0HSaWcSubo7uq6aNN1mNksJIb4AFW5Aesa9Yak
+bF0Oj4eZY0eMJJBzivmZDQjYGkkxEyy7NXxgyvOF6O415g+/tPJrIiVByJKE5wWgatZdizlF
+L4PMuf/7M/3p+g7K/fQUIHcyTwAAAABJRU5ErkJggg=='
+]
+
+{ #category : #'private - icons' }
 WSIconCache class >> iconBingContents [
 
 	^'iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABvklEQVR42mNkQAedVYZAMg2I
