@@ -5,7 +5,7 @@ Websearch for Spotter
 "
 Class {
 	#name : #BaselineOfWebSearch,
-	#superclass : #Object,
+	#superclass : #BaselineOf,
 	#category : #BaselineOfWebSearch
 }
 
