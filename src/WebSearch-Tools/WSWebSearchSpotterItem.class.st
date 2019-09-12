@@ -32,7 +32,7 @@ WSWebSearchSpotterItem >> performSearch [
 { #category : #printing }
 WSWebSearchSpotterItem >> printOn: aStream [
 
-	aStream nextPutAll: searchEngineClass defaultSearchEngineName , ' search for ', searchTerm asString
+	aStream nextPutAll: searchEngineClass defaultSearchEngineName , ' search for "', searchTerm asString, '"'
 ]
 
 { #category : #accessing }
