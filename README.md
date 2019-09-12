@@ -16,7 +16,7 @@ Metacello new
 
 ## Usage
 
-By default 3 search engines are provided:
+By default 5 search engines are provided:
 
 ```Smalltalk
 Bing searchFor: 'Pharo project'.
